@@ -36,4 +36,4 @@ jobs:
           pip install .
       - name: Run test suite
         run: |
-          pipenv run test -v
+          pytest -v

@@ -5,6 +5,8 @@ from seqparser import (
         FastqParser)
 
 import pathlib
+import pytest
+
 def test_freebie_parser_1():
     """
     This one is a freebie
