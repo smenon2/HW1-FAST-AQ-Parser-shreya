@@ -33,7 +33,7 @@ jobs:
       
       - name: Install tool
         run: |
-          pip install ./HW1-FAST-AQ-Parser-shreya/
+          pip install .
       - name: Run test suite
         run: |
           pipenv run test -v
