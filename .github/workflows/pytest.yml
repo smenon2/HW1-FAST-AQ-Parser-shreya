@@ -31,8 +31,8 @@ jobs:
         run: |
           pipenv install --deploy --dev
       - name: Install tool
-	run: |
-	  pip install seqparser
+        run: |
+          pip install seqparser
       - name: Run test suite
         run: |
           pipenv run test -v
