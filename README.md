@@ -25,13 +25,13 @@ The learning goals of this project are:
 	- [ x ] Edit the `pyproject.toml` file to reflect author information
 	- [ x ] Update the dependencies to include those that you use in your code
 
-- [ ] Write a unit test (in the test.py file) for
-	- [ ] Fasta Parser
-	- [ ] Fastq Parser
-	- [ ] Transcription
-	- [ ] Reverse Transcription
+- [ x ] Write a unit test (in the test.py file) for
+	- [ x ] Fasta Parser
+	- [ x ] Fastq Parser
+	- [ x ] Transcription
+	- [ x ] Reverse Transcription
 
-- [ ] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
+- [ x ] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
 
 	See blogposts below on helping set up github actions with pytest:
 	
@@ -249,3 +249,6 @@ def test_module_correct():
 def test_module_incorrect():
     assert add_numbers(2,3) != 0
 ```
+
+
+![](https://github.com/smenon2/HW1-FAST-AQ-Parser-shreya/workflows/Project%20Tests/badge.svg)
