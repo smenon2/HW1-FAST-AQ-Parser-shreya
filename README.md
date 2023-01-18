@@ -251,4 +251,4 @@ def test_module_incorrect():
 ```
 
 
-![](https://github.com/smenon2/HW1-FAST-AQ-Parser-shreya/workflows/Project%20Tests/badge.svg)
+![BuildStatus](https://github.com/smenon2/HW1-FAST-AQ-Parser-shreya/actions/workflows/pytest.yml/badge.svg?event=push)
